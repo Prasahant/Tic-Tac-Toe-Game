@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #a4ac86;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 16px rgba(0,0,0,0.3);
+    font-size: 8vmin;
+    color: #c1121f;
+    background-color: #d9ed92;
+}
+
+#reset-btn{
+    padding:1rem;
+    font-size: 1.25rem;
+    background-color:#343a40 ;
+    color: white;
+    border-radius: 51px;
+    border: none;
+}
+
+#reset-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)}
+
+#new-btn{
+    padding:0.5rem;
+    font-size: 1rem;
+    background-color:#343a40 ;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    margin-top: 0.5rem;
+}
+
+.O{
+  color: blue;
+}
+
+.X{
+  color: red;
+}
+
+
+#msg{
+    font-size:5vmin;
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px red;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+.hide{
+    display: none;
+}
+h1 {
+  color: rgb(154, 140, 50);
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 5rem;
+}
+#new-btn:hover {box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)}
